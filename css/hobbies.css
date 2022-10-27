@@ -1,0 +1,27 @@
+.hobbies {
+    background: #F5F5F5;
+}
+
+.hobbies__title{
+    text-align: center;
+    margin: 5% 0 4% 0;
+}
+
+.hobbies__line {
+    display: flex;
+    margin: 0% 4vw 0% 4vw;
+    justify-content: space-between;
+}
+
+.hobbies__box {
+    display: flex;
+    flex-direction: column-reverse;
+    background: #ffffff;
+    width: 14vw;
+    height: 14vw;
+}
+
+.hobbies__box--posicion {
+    margin: 0 0 9% 8%;
+    padding: 0;
+}

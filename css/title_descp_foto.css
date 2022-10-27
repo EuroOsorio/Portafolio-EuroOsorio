@@ -1,0 +1,30 @@
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 4vw 3% 4vw;
+}
+
+.title__profile {
+    width: 24vw;
+    border-radius: 50%;
+}
+
+.title__container {
+    width: 60vw;
+}
+
+.title__subsection {
+    font-weight: lighter;
+    margin: 2.5vw 0 2.5vw 0;
+}
+
+.title__network {
+    display: flex;
+    padding-left: 0px;
+}
+
+.title__network__item:nth-child(2), .title__network__item:nth-child(3), .title__network__item:nth-child(4){
+    margin-left: 2.8vw;
+}

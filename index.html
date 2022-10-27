@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/title_descp_foto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
@@ -20,33 +25,32 @@
     <div class="tudo">
     <section class="menu">
         <header class="menu__header">
-            <img src="assets\vector.png">
-            <h3 class="menu__title">Fulana de Tal</h3>
+            <img class="menu__imagen" src="assets\vector.png">
+            <h3 class="menu__title">Euro José Osorio Hernández</h3>
         </header>
-        <nav>
+        <nav class="menu__submenu">
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
                 <li class="menu__list__item"><a href="#skills">Skills</a></li>
                 <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                 <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
             </ul>
-            <li class="menu__list__item__contato"><a href="#contacto">contacto@fulana.com</a></li>
+            <li class="menu__list__item__contato"><a href="#contacto">eurojoseosorio2014@gmail.com</a></li>
         </nav>
     </section>
 
     <!-- Sección del Header/Title/Hero -->
     <section class="title">
         <div class="title__div">
-            <img class="title__profile" src="assets\profile.png">
+            <img class="title__profile" src="assets/ImgPer/Euro.jpeg">
             <div class="title__container">
-                <h2 class="title__bio">Hola, mi nombre es Fulana de Tal y construyo paginas web</h2>
-                <h3 class="title__subsection">Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <h2 class="title__bio">Hola, mi nombre es Euro Osorio de Venezuela y construyo paginas web</h2>
+                <h3 class="title__subsection">Soy formado en la UNET como Ing. Electronico y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/EuroOsorio">Github <img src="assets\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/euro-jos%C3%A9-osorio-hern%C3%A1ndez-a16a2b160">Linkedin <img src="assets\arrow.png"></a></li>
                     <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
                     <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
                 </ul>
@@ -58,8 +62,11 @@
     <section class="about" id="sobre-mi">
         <div class="about__container">
             <h3 class="about__title">Sobre mi</h3>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+            <p class="about__paragraph">Ingeniero Electrónico graduado, con experiencia en plantas de producción, enfocado en el área de automatización y control de procesos industriales. </p>
+            <p class="about__paragraph">Busco aumentar mis conocimientos y experiencia en nuevas tecnologías, enfocado en la programación de software.
+            </p>
+            <p class="about__paragraph">Me gusta resolver problemas e identificar el "por que ocurre" y como podemos solucionarlo de la forma más eficiente. Sigo aprendiendo día a día y buscando oportunidades para crecer y mejorar.
+            </p>
             <!-- Si quieres, pon tú firma acá! -->
             <img src="assets\signature.png">
         </div>
@@ -68,98 +75,99 @@
     <!-- Sección de Skills -->
     <section class="skills" id="skills">
         <h3 class="skills__title">Skills</h3>
-            <div class="skills__line">
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
-                        <li class="skills__name"> HTML 5</li>
-                    </ul>
-                </div>
+        <div class="skills__line">
+            <div class="skills__box">
+                <ul class="skills__box--posicion">
+                    <li class="skills__img"><img src="assets\htlm.png"></li>
+                    <li class="skills__name"> HTML 5</li>
+                </ul>
+            </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
-                        <li class="skills__name">Javascript</li>
-                    </ul>
-                </div>
+            <div class="skills__box">
+                <ul class="skills__box--posicion">
+                    <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                    <li class="skills__name">Javascript</li>
+                </ul>
+            </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
-                        <li class="skills__name">PHP</li>
-                    </ul>
-                </div>
+            <div class="skills__box">
+                <ul class="skills__box--posicion">
+                    <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
+                    <li class="skills__name">PHP</li>
+                </ul>
+            </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                        <li class="skills__name">Node JS</li>
-                    </ul>
-                </div>
+            <div class="skills__box">
+                <ul class="skills__box--posicion">
+                    <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                    <li class="skills__name">Node JS</li>
+                </ul>
+            </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
-                        <li class="skills__name">React</li>
-                    </ul>
-                </div>
+            <div class="skills__box">
+                <ul class="skills__box--posicion">
+                    <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                    <li class="skills__name">React</li>
+                </ul>
+            </div>
 
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
-                        <li class="skills__name">CSS</li>
-                    </ul>
-                </div>
+            <div class="skills__box">
+                <ul class="skills__box--posicion">
+                    <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
+                    <li class="skills__name">CSS</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <!-- Sección de Hobbies -->
     <section class="hobbies" id="hobbies">
         <h3 class="hobbies__title">Hobbies</h3>
-            <div class="hobbies__line">
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
-                        <li class="hobbies__name"> Patinaje</li>
-                    </ul>
-                </div>
+        <div class="hobbies__line">
+            <div class="hobbies__box">
+                <ul class="hobbies__box--posicion">
+                    <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
+                    <li class="hobbies__name"> Patinaje</li>
+                </ul>
+            </div>
 
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
-                        <li class="hobbies__name">Tocar bajo</li>
-                    </ul>
-                </div>
+            <div class="hobbies__box">
+                <ul class="hobbies__box--posicion">
+                    <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
+                    <li class="hobbies__name">Tocar bajo</li>
+                </ul>
+            </div>
 
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
-                        <li class="hobbies__name">Oir música</li>
-                    </ul>
-                </div>
+            <div class="hobbies__box">
+                <ul class="hobbies__box--posicion">
+                    <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
+                    <li class="hobbies__name">Oir música</li>
+                </ul>
+            </div>
 
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
-                        <li class="hobbies__name">Ver séries</li>
-                    </ul>
-                </div>
+            <div class="hobbies__box">
+                <ul class="hobbies__box--posicion">
+                    <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
+                    <li class="hobbies__name">Ver séries</li>
+                </ul>
+            </div>
 
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Cocinar</li>
-                    </ul>
-                </div>
+            <div class="hobbies__box">
+                <ul class="hobbies__box--posicion">
+                    <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
+                    <li class="hobbies__name">Cocinar</li>
+                </ul>
+            </div>
 
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Tomar fotos</li>
-                    </ul>
-                </div>
+            <div class="hobbies__box">
+                <ul class="hobbies__box--posicion">
+                    <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
+                    <li class="hobbies__name">Tomar fotos</li>
+                </ul>
+            </div>
         </div>
     </section>
+    
 
         <!-- Sección de Formación académica -->
     <section class="academic" id="formacion">
