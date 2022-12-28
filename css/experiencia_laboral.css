@@ -1,0 +1,26 @@
+/* experiencia Laboral*/
+
+section.experienceLaboral{
+    margin: 0 3% 0 3%;
+}
+
+.experienceLaboral__section__title {
+    text-align: center;
+    padding: 8vw 0 4vw 0;
+}
+
+.experiencieLaboral__box {
+    background: #FFFFFF;
+    margin: 3vw 0 3vw 0;
+    display: flex;
+}
+
+.experienceLaboral__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experienceLaboral__img__logo {
+    width: 14vw;
+}

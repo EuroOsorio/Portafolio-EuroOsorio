@@ -39,32 +39,48 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 
-/*Sección Hobbies*/
+/* experiencia Proyectos*/
 
+section.experienceProyec{
 
-
-
-/* Experiencia Académica*/
-
-section.academic{
+    background: #EAF2FD;
 
 }
 
-/* experiencia*/
 
-section.experience{
-
-}
 
 /*Contacto*/
 
 section.formcontato{
-
+    margin: 4% 4% 4% 4%;
 }
+ .formcontato__contacto {
+    display: flex;
+ }
+ 
+ .formcontato__img {
+    border-radius: 5px;
+ }
+
+ .formcontato__text {
+    margin-left: 2vw;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+
+
+
 
 /*footeer*/
 
 section.footer{
+
+    background: #EAF2FD;
    
 }
 
