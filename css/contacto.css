@@ -1,0 +1,38 @@
+/*Contacto*/
+
+section.formcontato{
+    margin: 4% 4% 4% 4%;
+}
+ .formcontato__contacto {
+    display: flex;
+ }
+ 
+ .formcontato__img {
+    border-radius: 5px;
+ }
+
+ .formcontato__text {
+    margin-left: 2vw;
+    color: #464646
+}
+
+.formcontato__subtext {
+    font-size: 15px;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__input, .formcontato__textarea {
+    margin: 0% 0 4% 0;
+}
+
+.formcontato__botao {
+    width: 30%;
+    border: none;
+    border-radius: 5%;
+    background: #2A7AE4;
+    color: #FFFFFF;
+}
