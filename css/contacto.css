@@ -5,6 +5,7 @@ section.formcontato{
 }
  .formcontato__contacto {
     display: flex;
+    justify-content: space-around;
     padding: 4vw 0 3vw 0;
  }
  
@@ -31,9 +32,18 @@ section.formcontato{
 }
 
 .formcontato__botao {
-    width: 30%;
+    width: 18vw;
+    height: 5vh;
     border: none;
     border-radius: 5%;
     background: #2A7AE4;
     color: #FFFFFF;
+}
+
+@media (max-width: 425px) {
+
+.formcontato--esquerda {
+    display: none;
+}
+    
 }

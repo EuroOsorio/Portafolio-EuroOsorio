@@ -1,4 +1,7 @@
+/*Menu*/
+
 .menu{
+    width: auto;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -31,4 +34,19 @@
 .menu__list__item__contato {
     font-weight: bolder;
     margin-left: 1vw;
+}
+
+/*Mobile*/
+
+@media (max-width: 425px) {
+
+.menu__list {
+    display: none;
+}
+
+.menu__list__item__contato {
+    font-weight: normal;
+    font-size: 3.7vw;
+}
+
 }

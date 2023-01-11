@@ -6,3 +6,13 @@
     margin: 3% 34vw 3% 4vw;
     padding: 4vw 0 4vw 0;
 }
+
+/*Mobile*/
+
+@media (max-width: 425px) {
+
+.about__container {
+    margin-right: 4vw;
+}
+    
+}

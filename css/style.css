@@ -43,62 +43,9 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 
-/* experiencia Proyectos*/
-
-section.experienceProyec{
-
-    background: #EAF2FD;
-
-}
-
-.experienceProyec__section__title {
-    text-align: center;
-    padding: 8vw 0 4vw 0;
-}
-
-
-.experiencieProyec__box {
-    display: flex;
-    margin: 3% 4vw 3% 4vw;
-    padding: 1vw 0 5vw 0;
-}
-
-.experienceProyec__img {
-    width: 50vw;
-}
-
-.experienceProyec__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*footeer*/
-
-section.footer{
-
-    background: #EAF2FD;
-    text-align: center;
-    padding: 4vw 0 3vw 0;
-   
-}
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
 
 /*Tablet*/
-@media (min-width: 768px) {
+/*@media (max-width: 768px) { */
 
 /* Menú */
 
@@ -112,10 +59,12 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Experiencia Profesional*/
 
-}
+/*}*/
+
+
 
 /*Mobile*/
-@media (min-width: 425px) {
+/*@media (max-width: 425px) {  */
 
 /*Menu*/
 
@@ -135,4 +84,4 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Footer*/
 
-}
+/*} */
