@@ -5,6 +5,7 @@ section.formcontato{
 }
  .formcontato__contacto {
     display: flex;
+    padding: 4vw 0 3vw 0;
  }
  
  .formcontato__img {
