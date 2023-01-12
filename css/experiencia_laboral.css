@@ -1,7 +1,7 @@
 /* experiencia Laboral*/
 
 section.experienceLaboral{
-    margin: 0 3% 0 3%;
+    margin: 0 4% 0 4%;
 }
 
 .experienceLaboral__section__title {
@@ -23,4 +23,31 @@ section.experienceLaboral{
 
 .experienceLaboral__img__logo {
     width: 14vw;
+}
+
+.experienceLaboral__info ul li {
+    color: #464646
+}
+
+/*Mobile*/
+
+@media (max-width: 425px) {
+
+.experiencieLaboral__box {
+    flex-direction: column;
+}
+
+.experienceLaboral__info__list {
+    padding: 2%;
+    margin: 0;
+}
+
+.experienceLaboral__img {
+    margin-top: 2vh;
+}
+
+.experienceLaboral__info__title h4 {
+    margin-top: 2vh;
+}
+             
 }

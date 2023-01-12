@@ -1,3 +1,5 @@
+/*Hobbies*/
+
 .hobbies {
     background: #F5F5F5;
 }
@@ -24,4 +26,30 @@
 .hobbies__box--posicion {
     margin: 0 0 9% 8%;
     padding: 0;
+}
+
+/*Mobile*/
+
+@media (max-width: 425px) {
+
+.hobbies__title {
+    margin-top: 4vh;
+}
+
+.hobbies__line {
+    flex-wrap: wrap;
+}
+
+.hobbies__box {
+    width: 44vw;
+    height: 34vw;
+    margin-top: 2vh;    
+}
+
+.hobbies__name {
+    margin-top: 1vh;
+    font-weight: bold;
+    color: #464646;
+}
+     
 }

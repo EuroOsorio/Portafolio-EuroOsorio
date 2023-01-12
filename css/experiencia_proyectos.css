@@ -45,3 +45,33 @@ section.experienceProyec{
     height: 6vh;
     width: 9vw;
 }
+
+/*Mobile*/
+
+@media (max-width: 425px) {
+
+.experienceProyec__section__title {
+    padding-top: 9vw;
+}
+
+.experiencieProyec__box {
+    flex-direction: column;
+}
+
+.experiencieProyec__box {
+    align-items: center;
+}
+
+.experienceProyec__img, .experienceProyec__info {
+    width: 85vw;
+}
+
+.experienceProyec__title, .experienceProyec__text {
+    font-size: 5vw;
+}
+
+ .experiencia__botao--repo, .experience__botao--demo {
+    width: 28vw;
+}
+                 
+}

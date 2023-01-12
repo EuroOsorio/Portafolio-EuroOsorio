@@ -14,6 +14,10 @@ section.academic{
     justify-content: space-around;
 }
 
+.academic__courses__list {
+    padding-left: 0;
+}
+
 .academic__courses__item__img {
     width: 32vw;
     height: 28vw;
@@ -25,4 +29,27 @@ section.academic{
 
 .academic__courses__item__img__logo {
     height: 50%;
+}
+
+.academic__courses__list li {
+    color: #464646;
+}
+
+/*Mobile*/
+
+@media (max-width: 425px) {
+
+.academic__title {
+    padding-top: 6vh;
+}
+
+.academic__courses {
+    flex-wrap: wrap;
+}
+
+.academic__courses__item__img {
+    width: 82vw;
+    height: 33vw;
+}
+         
 }

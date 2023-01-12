@@ -1,3 +1,5 @@
+/*Skills*/
+
 .skills {
     background: #F5F5F5;
 }
@@ -24,4 +26,30 @@
 .skills__box--posicion {
     margin: 0 0 9% 8%;
     padding: 0;
+}
+
+/*Mobile*/
+
+@media (max-width: 425px) {
+
+.skills__title {
+    margin-top: 3.7vh;
+}
+
+.skills__line {
+    flex-wrap: wrap;
+}
+
+.skills__box {
+    width: 44vw;
+    height: 34vw;
+    margin-top: 2vh;    
+}
+
+.skills__name {
+    margin-top: 1vh;
+    font-weight: bold;
+    color: #464646;
+}
+ 
 }

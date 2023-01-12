@@ -5,3 +5,7 @@ section.footer{
     text-align: center;
     padding: 4vw 0 3vw 0;
 }
+
+.footer__rodape p {
+    color: #464646;
+}
